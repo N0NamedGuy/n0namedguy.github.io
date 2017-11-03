@@ -1,0 +1,33 @@
+{
+    "player": {
+        "sounds": {
+            "step": "step"
+        },
+        "poses": {
+            "idle" : {
+                "frames": [0],
+                "delay": 0 
+            },
+            "walking" : {
+                "frames": [1, 2, 3, 2]
+            }
+        }
+    },
+
+    "guard": {
+        "poses": {
+            "idle" : {
+                "frames": [0],
+                "delay": 0 
+            },
+            "walking" : {
+                "frames": [
+                    1, 2, 3, 2,
+                    4, 5, 6, 5,
+                    1, 2, 3, 2,
+                    7, 8, 9, 8
+                ]
+            }
+        }
+    }
+}
